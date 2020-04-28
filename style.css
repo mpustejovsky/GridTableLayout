@@ -1,0 +1,65 @@
+
+ 
+
+  td {
+    color: darkblue;
+  }
+  table th {
+    background-color: rgb(130, 214, 130);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-style: oblique;
+  }
+
+  table th:nth-child(1){
+    background-color:rgb(4, 102, 4); ;
+  }
+
+  tr td:nth-child(odd){
+    background-color: rgb(150, 223, 245);
+  }
+
+  tr td:nth-child(even){
+    background-color: rgb(184, 237, 253);
+  }
+
+
+  tr td:nth-child(1){
+    background-color: rgb(130, 214, 130);
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+  }
+
+  table td {
+    font-size: 15px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+  }
+
+  
+
+  .title {
+    width: 480px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Aclonica';
+    color: blue;
+
+  }
+  .top_border {
+    height: 65px;
+    width: 480px;
+    background-image: url("/Topborder.JPG");
+    background-size: cover;
+  }
+  .bottom_border {
+    height: 65px;
+    width: 480px;
+    background-image: url("/bottomborder.JPG");
+    background-size: cover;
+  }
